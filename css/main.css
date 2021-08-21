@@ -109,6 +109,7 @@
       text-decoration: none;	
     }
      
+    h1,
     h2 {
       font-weight: 500;
       font-size: 1.875em;
@@ -196,6 +197,13 @@ header nav ul {
   padding-left: 0;
 }
 
+header a {
+  color: #282828;
+}
+
+header a:hover {
+  color: #006241;
+}
 
 footer {
   flex-direction: column;
@@ -254,8 +262,7 @@ footer .copyright {
   }
   
   .hero-area h1 {
-    font-size: 1.875em;
-    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.9em;
     font-weight: 500;
     line-height: 1.2; 
     color: white;
@@ -281,43 +288,53 @@ footer .copyright {
     flex-flow: row wrap;
   }
 
-  .bakery, 
-  .drinks {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
   .products .content-wrapper {
-      width: 100%;
+    width: 100%;
+    margin: 0;
   }
 
   .products figure {
-      background: #1c352e;
-      padding: 1.7em 0;
+    background: #1c352e;
+    padding: 1.7em 0;
   }
 
   .products img {
       width: 90%;
   }
 
+  .products p {
+    font-size: 1.375em;
+  }
+  
+  .products a {
+    font-size: .875em;
+    font-weight: 600;
+    margin: 1.5em;
+    padding: .5em 1em;
+    display: inline-block;
+    border: 1px solid #1c352e;
+    border-radius: 50px;
+  }
+
+  .products a:hover {
+    background-color: rgb(212, 212, 212);
+  }
+
+  .bakery, 
+  .drinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bakery, 
+  .drinks {
+    margin-top: 2.5em;
+  }
+
  .product-description {
       background-color: rgb(235, 233, 233);
       padding: 1em 2em;
-  }
-
-  .products p {
-      font-size: 1.375em;
-  }
-
-  .products a {
-      font-size: .875em;
-      font-weight: 600;
-      margin: 1.5em;
-      padding: .5em 1em;
-      display: inline-block;
-      border: 1px solid #1c352e;
-      border-radius: 50px;
   }
 
 
