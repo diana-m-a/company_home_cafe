@@ -120,14 +120,15 @@
      
     h3, 
     h4 {
+      font-family: 'Ubuntu', sans-serif;
       margin: 20px 0;
-      font-size: 1.125em;
+      font-size: 1.375em;
       font-weight: 500;
     }
      
     p {
-      font-size: 0.875em;
-        line-height: 1.285;
+      font-size: 1em;
+      line-height: 1.285;
     }
      
     img {
@@ -144,7 +145,7 @@
      
     .content-wrapper {
       width: 90%;
-      margin: 50px 0;
+      margin: 2.5em 0;
     }
     
     /* -------------------- Base Header - Footer Styles -------------------- */
@@ -216,7 +217,7 @@ footer p {
 
 footer .content-wrapper {
   width: 55%;
-  margin: 50px 0;
+  margin: 0 0 50px 0;
 }
 
 footer .contact {
@@ -296,6 +297,7 @@ footer .copyright {
   .products figure {
     background: #1c352e;
     padding: 1.7em 0;
+    
   }
 
   .products img {
@@ -337,6 +339,41 @@ footer .copyright {
       padding: 1em 2em;
   }
 
+  /* Team */
+
+  .team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team .content-wrapper {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .team h3 {
+    margin: 0;
+  }
+
+  .team p {
+    line-height: 2;
+  }
+
+  .team .team-member-about {
+    background-color: #d4e9e2;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 175px;
+    padding: 1em 2em;
+  }
+
+  .team article {
+    margin-bottom: 2.5em;
+  }
 
   /* ==========================================================================
      Helper classes
