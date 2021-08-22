@@ -253,7 +253,7 @@ footer .copyright {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("/img/nafinia-putra-Kwdp-0pok-I-unsplash.jpg") center no-repeat #333;
+    background: url("../img/nafinia-putra-Kwdp-0pok-I-unsplash.jpg") center no-repeat #333;
     background-size: cover;
     min-height: 450px;
   }
